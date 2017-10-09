@@ -12,12 +12,10 @@ public class AdditionProblem extends Problem
 	 * 		Solution Tree (maybe)
 	 */
 	
-	
-	
 	AdditionProblem()
 	{
 		//Set stuff to default values
-		ranking = 0.0;
+		rating = 0.0;
 	}
 	AdditionProblem(AdditionProblem original)
 	{
@@ -26,14 +24,15 @@ public class AdditionProblem extends Problem
 	AdditionProblem(String problem)
 	{
 		//DO SOME STUFF - This should accept a String representation of the problem, and generate all relevant information
-	}
+	}	
 	
 	
-	double findRanking()
+	
+	double findRating()
 	{
 		//DO SOME STUFF
 		
-		return ranking;
+		return rating;
 	}
 	
 	String showProblem()
