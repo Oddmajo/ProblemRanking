@@ -1,8 +1,8 @@
 package library.generator;
 
-import library.problem.Problem;
+import library.problems.Problem;
 
-public abstract class Generator 
+public abstract interface Generator 
 {
 	abstract Problem GenerateRandom();
 	

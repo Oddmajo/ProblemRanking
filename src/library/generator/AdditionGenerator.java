@@ -2,10 +2,11 @@ package library.generator;
 
 import java.util.Random;
 
-import library.problem.AdditionProblem;
-import library.problem.Problem;
+import library.problems.AdditionProblem;
+import library.problems.Problem;
 
-public class AdditionGenerator extends Generator 
+
+public class AdditionGenerator implements Generator 
 {
 	Random rand;
 	
